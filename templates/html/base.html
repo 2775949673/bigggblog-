@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}-万象笔记</title>
+    <link rel="stylesheet" href="{% static 'Bootstrap/bootstrap.min.css' %}">
+    <!-- 添加 Bootstrap 依赖 -->
+    <script src="{% static 'Bootstrap/popper.min.js' %}"></script>
+    <script src="{% static 'Bootstrap/bootstrap.bundle.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block head %}{% endblock %}
+</head>
+<body>
+<header class="p-3 text-bg-light border-bottom mb-3">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img src="{% static 'img/logo.jpg' %}" alt="" height="50" width="auto" class="mx-4">
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="/" class="nav-link px-2 text-secondary">首页</a></li>
+                <li><a href="{% url 'blog:blog_pub' %}" class="nav-link px-2 text-secondary">发布博客</a></li>
+
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control " placeholder="搜索..." aria-label="Search">
+            </form>
+
+            {% if user.is_authenticated %}
+                <div class="flex-shrink-0 dropdown">
+                    <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="{% static 'img/picture.png' %}" alt="mdo" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end text-small shadow">
+                        <li><a class="dropdown-item" href="{% url 'wxauth:logout' %}">退出登录</a></li>
+                    </ul>
+                </div>
+            {% else %}
+                <div class="text-end">
+                    <a href="{% url 'wxauth:login' %}" type="button" class="btn btn-outline-primary me-2">登录</a>
+                    <a href="{% url 'wxauth:register' %}" type="button" class="btn btn-primary">注册</a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</header>
+<main class="container bg-white p-3 rounded-2">
+    {% block main %}{% endblock %}
+</main>
+</body>
+</html>
