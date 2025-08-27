@@ -4,12 +4,3 @@
 @DESCRIPTION:
 """
 print("user")
-print("你好")
-print("你好")
-
-print("user")
-print("我不好")
-
-print("本地修改")
-
-print("我说好好好")

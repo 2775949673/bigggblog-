@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2974ff-42cf-4d8a-9230-e95a26dea08a" name="更改" comment="万象笔记博客1.0">
+    <list default="true" id="0a2974ff-42cf-4d8a-9230-e95a26dea08a" name="更改" comment="我说好">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -53,7 +58,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;huimie&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/PycharmProjects/bigggblog&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -211,6 +216,9 @@
       <workItem from="1755938494251" duration="621000" />
       <workItem from="1756027638848" duration="4460000" />
       <workItem from="1756031954162" duration="265000" />
+      <workItem from="1756086901758" duration="1639000" />
+      <workItem from="1756096882408" duration="397000" />
+      <workItem from="1756170411997" duration="2208000" />
     </task>
     <task id="LOCAL-00001" summary="万象笔记博客项目">
       <option name="closed" value="true" />
@@ -244,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756030747870</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="我说好">
+      <option name="closed" value="true" />
+      <created>1756032536851</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756032536851</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +280,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="万象笔记博客项目" />
     <MESSAGE value="万象笔记博客1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="万象笔记博客1.0" />
+    <MESSAGE value="我说好" />
+    <option name="LAST_COMMIT_MESSAGE" value="我说好" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bigggblog$Test__static_img.coverage" NAME="Test: static.img 覆盖结果" MODIFIED="1742829360551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
